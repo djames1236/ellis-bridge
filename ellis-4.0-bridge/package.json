@@ -1,0 +1,14 @@
+{
+  "name": "ellis-4-0-bridge",
+  "version": "1.0.0",
+  "description": "Ellis 4.0 AI Scheduling Bridge",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "openai": "^4.25.0",
+    "@google-cloud/calendar": "^4.7.0"
+  }
+}
